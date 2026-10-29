@@ -113,58 +113,61 @@ OpenShift / FaaS / Open Source
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=psehgaft&theme=nord_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=psehgaft&theme=nord_dark)
 
-## 🌳 Árbol de la Vida — The Sefirot
+## 🌳 Tree of Life — The Sefirot
 
-*Diez emanaciones, un solo árbol: la estructura con la que el universo — y el buen código — se sostiene.*
+*Ten emanations, one single tree: the structure that sustains the universe — and good code.*
 
 ```mermaid
 graph TD
-    subgraph Right["Pilar de la Misericordia"]
-        CH["Chokhmah · Sabiduría"]
-        CE["Chesed · Misericordia"]
-        NE["Netzach · Victoria"]
-    end
-    subgraph Middle["Pilar del Equilibrio"]
-        KE["Keter · Corona"]
-        TI["Tiferet · Belleza"]
-        YE["Yesod · Fundamento"]
-        MA["Malkuth · Reino"]
-    end
-    subgraph Left["Pilar de la Severidad"]
-        BI["Binah · Entendimiento"]
-        GE["Gevurah · Juicio"]
-        HO["Hod · Esplendor"]
-    end
-    KE --- CH
-    KE --- BI
-    KE --- TI
-    CH --- BI
-    CH --- CE
-    CH --- TI
-    BI --- GE
-    BI --- TI
-    CE --- GE
-    CE --- TI
-    CE --- NE
-    GE --- TI
-    GE --- HO
-    TI --- NE
-    TI --- HO
-    TI --- YE
-    NE --- HO
-    NE --- YE
-    NE --- MA
-    HO --- YE
-    HO --- MA
-    YE --- MA
-    classDef crown fill:#2b1055,stroke:#ffd700,stroke-width:2px,color:#ffffff
-    classDef right fill:#123a6d,stroke:#4da3ff,color:#ffffff
-    classDef left fill:#6d1220,stroke:#ff4d5e,color:#ffffff
-    classDef middle fill:#14532d,stroke:#4dff88,color:#ffffff
-    class KE crown
-    class CH,CE,NE right
-    class BI,GE,HO left
-    class TI,YE,MA middle
+    K["Keter · Purpose<br/>Build a meaningful life through architecture, knowledge, family, and growth"]
+    C["Chokhmah · Vision<br/>Connect OpenShift, automation, AI, telecom, and new opportunities"]
+    B["Binah · Structure<br/>Turn ideas into standards, plans, workshops, and well-grounded decisions"]
+    D["Da'at · Integration<br/>Bring together technical experience, your thesis, mentorship, and shared learning"]
+    H["Chesed · Generosity<br/>Guide, teach, and create room for others to grow"]
+    G["Gevurah · Discipline and boundaries<br/>Set priorities, sustain habits, and protect your time, energy, and finances"]
+    T["Tiferet · Center<br/>Be an architect, mentor, father, and whole person without reducing yourself to one role"]
+    N["Netzach · Perseverance<br/>Keep advancing in your career, running, and moving forward through obstacles"]
+    O["Hod · Communication<br/>Explain, document, and share through workshops, repositories, and community"]
+    Y["Yesod · Foundation<br/>Weekly routines, health, rest, and tracking systems that support your goals"]
+    M["Malkhut · Realization<br/>Visible results: published projects, professional growth, well-being, and presence with family"]
+
+    K --> C
+    K --> B
+    C --- B
+
+    C --> H
+    B --> G
+    H --- G
+
+    H --> T
+    G --> T
+    C --> D
+    B --> D
+    D --> T
+
+    T --> N
+    T --> O
+    N --- O
+
+    N --> Y
+    O --> Y
+    T --> Y
+
+    Y --> M
+
+    classDef crown fill:#f4d35e,color:#222,stroke:#8a6d00,stroke-width:2px;
+    classDef right fill:#ef476f,color:#fff,stroke:#8d1b35;
+    classDef left fill:#118ab2,color:#fff,stroke:#07536b;
+    classDef center fill:#7b2cbf,color:#fff,stroke:#3c096c,stroke-width:2px;
+    classDef foundation fill:#06a77d,color:#fff,stroke:#045c46;
+    classDef grounded fill:#333,color:#fff,stroke:#111,stroke-width:2px;
+
+    class K crown;
+    class C,H,N right;
+    class B,G,O left;
+    class D,T center;
+    class Y foundation;
+    class M grounded;
 ```
 
 ## ⚡ Fun fact
